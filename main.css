@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #001e4d;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    min-height: 40vh;
+    justify-content: center ;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 0px;
+    margin: 0;
+}
+
+#btn{
+    font-size: 15px;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#btn:hover{
+    background-color: #017d8d;
+    color: #fff;
+}
+
+#btn .material-symbols-outlined{
+    padding: 10px;
+    font-size: 2rem;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.div-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    padding: 0;
+}
+
+.text01{
+    font-weight: 600;
+    color: black;
+    font-size: 2rem;
+    height: 100px;
+    width: 410px;
+    border-radius: 10px;
+    border: none;
+    padding: 0;
+    margin-top: 100px;
+}
